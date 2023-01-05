@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+.hadhad{
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+.hader{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+    margin-top: 40px;
+}
+.r{
+    color: #FD6E0A;
+}
+.hader ul{
+    display: flex;
+    align-items: center;
+}
+.hader li {
+    list-style: none;
+    margin-left: 50px;
+}
+.btn-01{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.mary{
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.hi{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+
+}
+.lor{
+    color: #757575;
+    font-size: 18px; margin-bottom: 30px;
+}
+.btn-02{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.btn-03{
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    padding: 18px 35px;
+    height: 64px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+}
